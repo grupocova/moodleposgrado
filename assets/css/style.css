@@ -19,13 +19,13 @@ body {
 	overflow: hidden;
 }
 .encabezado .logo{
-	/*background-color: #457;*/
+	background-color: #457;*/
 	display: inline-block;
 	float: left;
 }
 
 .encabezado .logo2{
-	/*background-color: #912;*/
+	background-color: #912;*/
 	display: inline-block;
 	float: right;
 }
