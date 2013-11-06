@@ -2,6 +2,16 @@
 
 /* CSS Document */
 
+@font-face {
+	font-family: 'iconos';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body { 
 	padding-top: 50px;
@@ -76,6 +86,10 @@ body {
 	font-weight: bold;
 }
 
+.slider-principal {
+	padding-bottom: 10px;
+}
+
 .login{
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 5px;
@@ -96,9 +110,11 @@ body {
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 5px;
 	padding: 10px 25px;
+	margin-bottom: 10px;
 }
 .opciones h4{
 	margin: 0;
+	padding-bottom: 5px;
 }
 .opciones ul{
 	margin: 0;
@@ -106,9 +122,109 @@ body {
 }
 .opciones ul li{
 	display: block;
+	border-radius: 3px;
 	background-color: rgba(255,255,255,1);
 	padding: 7px;
 	margin-bottom: 4px;
 }
+.opciones ul li .opc-registrar{
+	color: rgba(117, 13, 28, 1);
+	text-decoration: none;
+}
+.opciones ul li .opc-olvidopass{
 
+}
+.opciones ul li .opc-info{
 
+}
+
+.footer {
+	background-color: rgba(117,13,28,0.8);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px 25px;
+
+}
+.footer li {
+	display: inline-block;
+	padding: 10px;
+}
+.footer .iconofacebook{
+	text-decoration: none;
+}
+.footer .iconofacebook:after{
+	color: #fcb92d;
+	content: "\e605";
+	font-family: "iconos";
+	font-size: 2.5em;
+	border-radius: 50%;
+	background: rgba(117,13,28,0.8);
+	padding: 0.2em 0.2em;
+}
+.footer .iconofacebook:hover:after{
+	color: #fff;
+}
+.footer .iconotwiter{
+	text-decoration: none;
+}
+.footer .iconotwiter:after{
+	color: #fcb92d;
+	content: "\e603";
+	font-family: "iconos";
+	font-size: 2.5em;
+	border-radius: 50%;
+	background: rgba(117,13,28,0.8);
+	padding: 0.2em 0.2em;
+}
+.footer .iconotwiter:hover:after{
+	color: #fff;
+}
+.footer .iconoyoutube{
+	text-decoration: none;
+}
+.footer .iconoyoutube:after{
+	color: #fcb92d;
+	content: "\e602";
+	font-family: "iconos";
+	font-size: 2.5em;
+	border-radius: 50%;
+	background: rgba(117,13,28,0.8);
+	padding: 0.2em 0.2em;
+}
+.footer .iconoyoutube:hover:after{
+	color: #fff;
+}
+.footer .iconogoogle{
+	text-decoration: none;
+}
+.footer .iconogoogle:after{
+	color: #fcb92d;
+	text-decoration: none;
+	content: "\e604";
+	font-family: "iconos";
+	font-size: 2.5em;
+	border-radius: 50%;
+	background: rgba(117,13,28,0.8);
+	padding: 0.2em 0.2em;
+}
+.footer .iconogoogle:hover:after{
+	color: #fff;
+}
+.footer .footer-epg{
+	padding: 10px 25px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border-bottom: 2px dashed #9999ff;
+
+}
+.footer .sociales{
+	padding: 10px 25px;
+	text-align: center;
+	border-bottom: 2px dashed #9999ff;
+}
+.footer .footer-informacion{
+	padding: 25px 25px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
